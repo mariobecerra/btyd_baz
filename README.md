@@ -1,8 +1,8 @@
 # btyd_baz
 
-Fork from the The BTYDplus [R](https://www.r-project.org/) package. The BTYDplus package provides advanced statistical methods to describe and predict customer's purchase behavior. It uses historic transaction records to fit a probabilistic model, which then allows to compute quantities of managerial interest on a cohort- as well as on a customer level (Customer Lifetime Value, Customer Equity, P(alive), etc.).
+Fork from the [BTYDplus](https://github.com/mplatzer/BTYDplus/) R package. The BTYDplus package provides advanced statistical methods to describe and predict customer's purchase behavior. It uses historic transaction records to fit a probabilistic model, which then allows to compute quantities of managerial interest on a cohort- as well as on a customer level (Customer Lifetime Value, Customer Equity, P(alive), etc.).
 
-he BTYDplus package complements the [BTYD](https://cran.r-project.org/package=BTYD) package by providing several additional buy-till-you-die models, that have been published in the marketing literature, but whose implementation are complex and non-trivial. These models are: NBD, MBG/NBD, BG/CNBD-k, MBG/CNBD-k, Pareto/NBD (HB), Pareto/NBD (Abe) and Pareto/GGG.
+The BTYDplus package complements the [BTYD](https://cran.r-project.org/package=BTYD) package by providing several additional buy-till-you-die models, that have been published in the marketing literature, but whose implementation are complex and non-trivial. These models are: NBD, MBG/NBD, BG/CNBD-k, MBG/CNBD-k, Pareto/NBD (HB), Pareto/NBD (Abe) and Pareto/GGG.
 
 This package was forked to improve the memory usage and parallel processing of certain functions, especially when working with millions of customers.
 
